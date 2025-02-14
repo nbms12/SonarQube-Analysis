@@ -31,9 +31,9 @@ sudo chmod 666 /var/run/docker.sock
 
 9. install neccessary pluggins
 
-    # SonarQube Scanner
-    # Eclipse Temurin installer
-    # Pipeline Stage View
+    a) SonarQube Scanner
+    b) Eclipse Temurin installer
+    c) Pipeline Stage View
 
 10. under tools of jenkins
       add jdk  > Name: jdk17  > Check' install automatically, Select 'Install from adoptium.net' from dropdown, Version: select jdk-17.0.11+9
