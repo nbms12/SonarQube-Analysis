@@ -62,5 +62,27 @@ sudo chmod 666 /var/run/docker.sock
     Manage Jenkins --- System --- Scroll down to 'SonarQube servers' --- Click on 'Add SonarQube' --- Name: sonar-server --- ServerURL: <PublicIPofSQinstalledVM>:9000 --- Server Authentication Token: select 'sonar-token' --- Apply --- Save
 
 
+15. create an  pipeline job and start build. 
+
+    add jenkins file code as it and  convert github url from pipeline syntax .
+    
+     ex : https://github.com/nbms12/SonarQube-Analysis.git  >  git branch: 'main', url: 'https://github.com/nbms12/SonarQube-Analysis.git'
+
+
+16.once build is succesfull , we can see docker image is pushed into dockerhub.
+
+17 . sonarqube project is created and we can see in port 
+
+![image](https://github.com/user-attachments/assets/10430a3d-2717-47a4-88f2-3224b789501f)
+
+
+18. test application in 5555 port no
+
+    ![image](https://github.com/user-attachments/assets/65f29647-25e8-4964-a5ba-f09587f7edb4)
+
+
+
+
+
 
     
